@@ -112,7 +112,6 @@
 		8919E50B1DC9DC74006ECB18 /* ShiDianUM */ = {
 			isa = PBXGroup;
 			children = (
-				8919E50C1DC9DC74006ECB18 /* Lib */,
 				8977CC8A1DCB36C90091BE12 /* ShiDianUM.h */,
 				8977CC8B1DCB36C90091BE12 /* ShiDianUM.m */,
 				8977CC8D1DCB3B7C0091BE12 /* ShiDianUM+Register.h */,
@@ -122,13 +121,6 @@
 				8977CC901DCB3C740091BE12 /* ShiDianUMHeader.h */,
 			);
 			path = ShiDianUM;
-			sourceTree = "<group>";
-		};
-		8919E50C1DC9DC74006ECB18 /* Lib */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Lib;
 			sourceTree = "<group>";
 		};
 		8919E5121DC9ECC6006ECB18 /* Frameworks */ = {
@@ -344,6 +336,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/ShiDianUM/ShiDianUM/Lib/UMSocialSDK",
 					"$(PROJECT_DIR)/ShiDianUM/ShiDianUM/Lib/SocialLibraries/QQ",
+					"$(PROJECT_DIR)/ShiDianUM/ShiDianUM/SocialLibraries/QQ",
+					"$(PROJECT_DIR)/ShiDianUM/ShiDianUM/UMSocialSDK",
 				);
 				INFOPLIST_FILE = ShiDianUM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -353,6 +347,10 @@
 					"$(PROJECT_DIR)/ShiDianUM/ShiDianUM/Lib/SocialLibraries/Sina",
 					"$(PROJECT_DIR)/ShiDianUM/ShiDianUM/Lib/SocialLibraries/SMS",
 					"$(PROJECT_DIR)/ShiDianUM/ShiDianUM/Lib/SocialLibraries/WeChat",
+					"$(PROJECT_DIR)/ShiDianUM/ShiDianUM/SocialLibraries/QQ",
+					"$(PROJECT_DIR)/ShiDianUM/ShiDianUM/SocialLibraries/Sina",
+					"$(PROJECT_DIR)/ShiDianUM/ShiDianUM/SocialLibraries/SMS",
+					"$(PROJECT_DIR)/ShiDianUM/ShiDianUM/SocialLibraries/WeChat",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ShiDian.ShiDianUM;
@@ -369,6 +367,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/ShiDianUM/ShiDianUM/Lib/UMSocialSDK",
 					"$(PROJECT_DIR)/ShiDianUM/ShiDianUM/Lib/SocialLibraries/QQ",
+					"$(PROJECT_DIR)/ShiDianUM/ShiDianUM/SocialLibraries/QQ",
+					"$(PROJECT_DIR)/ShiDianUM/ShiDianUM/UMSocialSDK",
 				);
 				INFOPLIST_FILE = ShiDianUM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -378,6 +378,10 @@
 					"$(PROJECT_DIR)/ShiDianUM/ShiDianUM/Lib/SocialLibraries/Sina",
 					"$(PROJECT_DIR)/ShiDianUM/ShiDianUM/Lib/SocialLibraries/SMS",
 					"$(PROJECT_DIR)/ShiDianUM/ShiDianUM/Lib/SocialLibraries/WeChat",
+					"$(PROJECT_DIR)/ShiDianUM/ShiDianUM/SocialLibraries/QQ",
+					"$(PROJECT_DIR)/ShiDianUM/ShiDianUM/SocialLibraries/Sina",
+					"$(PROJECT_DIR)/ShiDianUM/ShiDianUM/SocialLibraries/SMS",
+					"$(PROJECT_DIR)/ShiDianUM/ShiDianUM/SocialLibraries/WeChat",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ShiDian.ShiDianUM;
