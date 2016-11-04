@@ -33,7 +33,7 @@
 
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
 {
-    BOOL result = [[UMSocialManager defaultManager] handleOpenURL:url];
+    BOOL result = [ShiDianUM um_handleOpenURL:url];
     if (!result) {
         // 其他如支付等SDK的回调
     }

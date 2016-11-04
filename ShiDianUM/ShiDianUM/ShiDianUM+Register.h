@@ -17,6 +17,6 @@
 
 +(void)um_regiserQQAppKey:(NSString *)QQAppKey appSecret:(NSString *)appSecret redirectURL:(NSString *)redirectURL;
 
-
++(BOOL)um_handleOpenURL:(NSURL *)openURL;
 
 @end

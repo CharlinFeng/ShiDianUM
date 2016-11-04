@@ -34,7 +34,10 @@
 }
 
 
++(BOOL)um_handleOpenURL:(NSURL *)openURL{
 
+    return  [[UMSocialManager defaultManager] handleOpenURL:url];
+}
 
 
 
